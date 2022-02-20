@@ -8,7 +8,7 @@ const SHomeApartmentSection = () => {
   return (
     <section className="SApartment">
             <div className="SApartment__container-1 container">
-                <div ClassName='SApartment__container-2'>
+                <div className="SApartment__container-i">
                     <h1>
                         Start Getting Paid in Two Steps
                     </h1>
@@ -17,7 +17,9 @@ const SHomeApartmentSection = () => {
                   <div className="SApartment__container-4">
                     <img src={ImageOne} alt="Icon" />
                     <h1>List your property</h1>
-                    <p>To get started, fill out the  basic information required and our staff will contact you.</p>
+                    <p>To get started, fill out the  basic information 
+                      <br />
+                      required and our staff will contact you.</p>
                   </div>
                   <div className="SApartment__container-5">
                     <img src={SDotted} alt="Logo" />
@@ -25,7 +27,11 @@ const SHomeApartmentSection = () => {
                   <div className="SApartment__container-4">
                     <img src={ImageTwo} alt="Logo" />
                     <h1>Get Paid</h1>
-                    <p>Now a Rentgage Landlord? Get your rent on time.</p>
+                      <p>
+                          Now a Rentgage Landlord?
+                          <br />
+                          Get your rent on time.
+                       </p>
                   </div>
                 </div>
             </div>

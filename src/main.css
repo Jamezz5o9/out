@@ -1,3 +1,10 @@
+Link{
+    font-style:normal;
+    text-decoration:none;
+    font-size: 16px;
+    line-height: 24px;
+}
+
 /* Hero Section */
 .SHome{
     background-image: url('../src/assets/images/empy-room.png');
@@ -86,3 +93,54 @@
     padding: 1.05rem 2.1rem;
 }
 /* End of Feature Section */
+/* Apartment Section */
+.SApartment{
+    padding-top: 64px;
+    padding-bottom: 106px;
+}
+.SApartment__container-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.SApartment__container-1 .SApartment__container-i > h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 84px;
+    color: #0F2F66;
+    padding-bottom: 105px;
+}
+.SApartment__container-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+.SApartment__container-5 > img{
+    padding-bottom: 290px;
+    
+}
+.SApartment__container-4 > h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #3B7980;
+  
+}
+.SApartment__container-4 > p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;    
+    text-align: center;    
+    color: #3B7980;
+    padding: 1rem;
+}
+.Apartment__container-4 > img{
+    height: 90px;
+}
+/* End of Apartment Section */
