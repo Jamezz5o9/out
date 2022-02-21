@@ -41,7 +41,7 @@ const HomeNewsletterSection = () => {
                     <p>
                         In partnership with
                     </p>
-                    <img src={FCMBLogo} alt="FCMB" />
+                    <img className ="fcmb" src={FCMBLogo} alt="FCMB" />
                 </div>
             </div>
     </section>

@@ -55,8 +55,10 @@ const HomeApartmentSection = () => {
                 <div className='set__apartment_junior'>
                     <div className="set__apartment_group">
                         <img src={Search} alt="Seach" />
-                        <h1>Find an Apartment</h1>
-                        <p>Sign up on our mobile and select an apartment that suits you.</p>
+                        <div className='apply__new'>
+                            <h1>Find an Apartment</h1>
+                            <p>Sign up on our mobile and select an apartment that suits you.</p>
+                        </div>
                     </div>                    
                 </div>
                 <div className='set__apartment_junior'>
@@ -65,8 +67,10 @@ const HomeApartmentSection = () => {
                 <div className='set__apartment_junior'>
                     <div className="set__apartment_group">
                         <img src={Hand} alt="Hand-logo" />
-                        <h1>Apply for Renpay</h1>
-                        <p>Access our flexible payment plans and select the one that suits you.</p>
+                            <div className="apply__new">
+                                <h1>Apply for Renpay</h1>
+                                <p>Access our flexible payment plans and select the one that suits you.</p>
+                            </div>
                     </div>                    
                 </div>
                 <div className='set__apartment_junior'>
@@ -75,8 +79,10 @@ const HomeApartmentSection = () => {
                 <div className='set__apartment_junior'>
                     <div className="set__apartment_group">
                         <img src={Dotted} alt="Dotted-logo" />
-                        <h1>What else? Move in!</h1>
-                        <p>Move into your dream house and live comfortably.</p>
+                        <div className="apply__new">
+                            <h1>What else? Move in!</h1>
+                            <p>Move into your dream house and live comfortably.</p>
+                        </div>
                     </div>                   
                 </div>
             </div>       

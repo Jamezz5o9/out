@@ -7,7 +7,7 @@ const HomeFeaturesCard = ({image, title, children}) => {
       <div className='feature__1'>       
         <img src={image} alt={title} className="features_card_img" />
       </div>
-      <div className="feature__2">
+      <div className="feature__2"> 
         <h1 className="features_card_h1">{title}</h1>
         <p className='features_card_p'>{children}</p>
       </div>

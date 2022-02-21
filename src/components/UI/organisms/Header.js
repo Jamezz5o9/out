@@ -11,10 +11,8 @@ const Header = () => {
           <img className='header_img' src={Logo} alt="rentgage logo" />
           </Link>
           <div className="header_p">
-            <p className="header_p_1">
-              <Link style={{textDecoration: 'none', color: ''}} to="/customer">              
-              Customer
-              </Link>
+              <p className="header_p_1">                          
+                Customer              
               </p>
               <Link to='/landlord'>
                 <p className="header_p_2">Landlord</p>
