@@ -1,0 +1,300 @@
+/* Phone screen */
+
+@media only screen and (max-width:960px) {
+
+body{
+    min-height: 100vh;
+    width: 100%
+}
+.container{
+    margin: 0 10px;
+}
+.header{
+    padding: 0.8rem;
+}
+/* Header Section */
+.header_p{
+    display: flex;
+    
+}
+.header_img{
+   height: 32px;  
+}
+.header_p_1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8px;
+    line-height: 12px;
+    color: #0F2F66;
+    padding-right: 14px;
+}
+.header_p_2{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8px;
+    line-height: 12px;
+    color: #224E9C;
+    padding-right: 14px;
+}
+.header_p_3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 12px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #224E9C;
+}
+
+/* End of Header Section */
+/* Hero Section */
+.left__rectangle{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.9); ;
+    z-index: 1;
+}
+
+.left__rectangle::after{
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;    
+    background-image: url('../src/assets/images/latest.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+    opacity: 0.1;
+    z-index: -1;   
+}
+
+.hero_img > img{
+    height: 0;
+    width: 0;
+}
+.hero_h1_p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.hero__container-button{
+    background: #005CE6;
+    border-radius: 10px;
+    padding: 9px 3rem;
+    border: none;
+    color: #fff;
+    margin-bottom:24px;
+    font-size: 15px;
+    line-height: 32px;
+}
+.hero__container1 img{       
+    height: 3rem;
+}
+.hero__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+/* End of Hero Section */
+/*Feature Section */
+.feature{
+    padding-top:26px 0px;    
+    background: #ECF4FF;
+}
+.set_features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.feature_h1 > h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #0F2F66;
+}
+.features_card{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+.features_card_h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center; 
+    color: #0F2F66;
+    padding-right:30px;
+}
+.feature__1 > img{
+    height: 80px;
+}
+.features_card_p{     
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0F2F66;
+}
+/* End Of Feature Section */
+/* Apartment Section */
+.apartment{
+    padding: 24px 0;
+}
+.apartment_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.apartment_1 > h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+    color: #0F2F66;
+    padding-bottom: 0;
+}
+.set__apartment_senior{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+.set__apartment_group > img{
+    
+    }
+.set__apartment_junior > img{
+    height: 0;
+}
+.set__apartment_group, h1, p{
+    text-align: center;
+}
+/* End of Apartment Section */
+/* LandLord Section */
+.landlord_img > img{
+    width: 300.53px;
+    height: 310px;
+    padding-top: 20px;
+    
+}
+.landlord_h1_p > h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 67px;
+    color: #0F2F66;
+    padding-bottom:17px;
+}
+.landlord_h1_p > h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0F2F66;;
+}
+.landlord_h1_p > button{
+    background: #005CE6;
+    border-radius: 10px;
+    padding: 5px 30px;
+    margin-left: 35px;
+    font-style: normal;    
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    border: none;
+}
+.landlord_h1_p > p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 12px;    
+    color: #3B7980;
+}
+
+/* End of Landlord Section */
+/* Newletter */
+.letter_h1_1{    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;    
+    text-align: center;    
+    color: #0F2F66;
+}
+.letter_button > button {
+    background: #005CE6;
+    border-radius: 10px 10px 10px 0px;
+    padding:8px 60px;
+    margin: 2rem;
+    font-size: 1rem;
+    border-style: none;    
+    margin-bottom: 70px;    
+    border-bottom-left-radius: 0px;
+}
+.letter_p_2 > p{
+    padding-bottom: 1.5rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0F2F66;
+}
+.letter_p_2 > img{
+    padding-bottom: 4rem;
+    height: 100px;
+}
+.letter_p_3 > p{
+    padding-bottom: 2rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0F2F66;
+}
+.fcmb{
+    height: 3rem;
+}
+/* End of NewsLetter section */
+/* footer Section */
+.footer_c p:nth-child(2){
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #0F2F66;
+    padding-bottom: 35px;
+}
+.footer_c p:nth-child(3){
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 18px;
+    color: #0F2F66;    
+}
+.footer_img > img{   
+    padding-bottom:30px;
+    height: 60px;
+}
+/* End of Footer Section */
+}
+/* End of Phone of Screen */
