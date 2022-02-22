@@ -1,7 +1,6 @@
 import './App.css';
-import './media.css';
-import './secondmedia.css';
 import './main.css';
+import './media.css';
 import AllRoutes from "./routes";
 
 function App() {

@@ -66,8 +66,15 @@ body{
     background-image: url('../src/assets/images/latest.png');
     background-repeat:no-repeat;
     background-size: cover;
-    opacity: 0.1;
+    opacity: 0.2;
     z-index: -1;   
+}
+.hero_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .hero_img > img{
@@ -81,12 +88,28 @@ body{
     text-align: center;
     flex-direction: column;
     padding-bottom: 40px;
+    margin-top: -40px;
 }
-
+.hero_h1_p > h1{
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: bold;
+}
+.hero_h1_p p:nth-child(2){
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+.hero_h1_p p:nth-child(3){
+    font-weight: normal;
+    font-size: 14px; 
+    line-height: 20px;
+}
 .hero__container-button{
     background: #005CE6;
     border-radius: 10px;
-    padding: 9px 3rem;
+    padding: 9px 2rem;
     border: none;
     color: #fff;
     margin-bottom:24px;
@@ -94,14 +117,80 @@ body{
     line-height: 32px;
 }
 .hero__container1 img{       
-    height: 3rem;
+    height: 2.5rem;
 }
-.hero__container{
+.Shero__container1 > img{
+    height: 2.5rem;
+}
+.Shero_h1_p > h1{
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+.Shero_img > img{
+    height: 0;
+    width: 0;
+    padding-bottom:0;
+}
+.SHome{
+    background-image: url('../src/assets/images/empy-room.png');
+    background-size:cover;    
+    background-repeat:no-repeat;
+    
+}
+.Shero_header{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+    margin-bottom:0px;
+   
+}
+.SFeature__container-2 > h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    color: #0F2F66;
+}
+.hero__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;    
+}
+.SFeature{
+    padding-top:30px;
+}
+.Shero__button{
+    background: #005CE6;
+    border-radius: 10px;
+    padding: 9px 2.5rem;
+    border: none;
+    color: #fff;
+    margin-bottom:24px;
+    font-size: 15px;
+    line-height: 32px;
+}
+.SFeature__container-1{
+    padding-bottom: 5px;
+}
+.SFeature__container-minor{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    padding:1rem;
+}
+.SFeature__container-main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    padding:1rem;
+    margin-top: -30px;
 }
 /* End of Hero Section */
 /*Feature Section */
@@ -113,45 +202,48 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;   
 
 }
 .feature_h1 > h1{
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
-    line-height: 36px;
-    text-align: center;
+    font-size: 22px;
+    line-height: 28px;
     color: #0F2F66;
 }
 .features_card{
     display:flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 2rem;
+    align-items: center;    
+    padding:1rem;
 }
 .features_card_h1{
     font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 30px;
-    text-align: center; 
-    color: #0F2F66;
-    padding-right:30px;
+    font-weight: bold;    
+    color: #0F2F66;    
+    padding-right: 30px;
+
 }
 .feature__1 > img{
-    height: 80px;
+    height: 60px;
 }
 .features_card_p{     
     font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
+    font-weight: normal;    
     color: #0F2F66;
+    padding-right: 30px;
 }
+.SFeature__container-1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    padding:1rem;
+    
+}
+
 /* End Of Feature Section */
 /* Apartment Section */
 .apartment{
@@ -163,11 +255,21 @@ body{
     align-items: center;
     flex-direction: column;
 }
+
+.SApartment__container-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.apply__new{
+    margin-top: -120px;
+}
 .apartment_1 > h1{
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
-    line-height: 36px;
+    line-height: 34px;
     text-align: center;
     color: #0F2F66;
     padding-bottom: 0;
@@ -177,7 +279,26 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;  
+    margin-top: -80px;  
+}
+.SApartment__container-5 > img{
+    height: 0px;    
+}
+.SApartment__container-5{
+    height: 90px;
+}
+.apply__late{
+    margin-top: -150px;
+}
+.new{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 34px;
+    text-align: center;
+    color: #0F2F66;
+   
 }
 .set__apartment_group > img{
     
@@ -191,18 +312,10 @@ body{
 /* End of Apartment Section */
 /* LandLord Section */
 .landlord_img > img{
-    width: 300.53px;
-    height: 310px;
+    width: 150.53px;
+    height: 200px;
     padding-top: 20px;
     
-}
-.landlord_h1_p > h1{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 50px;
-    line-height: 67px;
-    color: #0F2F66;
-    padding-bottom:17px;
 }
 .landlord_h1_p > h1{
     font-style: normal;
@@ -214,13 +327,14 @@ body{
 .landlord_h1_p > button{
     background: #005CE6;
     border-radius: 10px;
-    padding: 5px 30px;
+    padding: 5px 25px;
     margin-left: 35px;
     font-style: normal;    
     font-size: 15px;
     line-height: 25px;
     color: #FFFFFF;
     border: none;
+    
 }
 .landlord_h1_p > p{
     font-style: normal;
@@ -228,6 +342,7 @@ body{
     font-size: 11px;
     line-height: 12px;    
     color: #3B7980;
+    margin-bottom:0;
 }
 
 /* End of Landlord Section */
@@ -272,6 +387,12 @@ body{
 }
 .fcmb{
     height: 3rem;
+}
+.letter_h1_1 > h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
 }
 /* End of NewsLetter section */
 /* footer Section */

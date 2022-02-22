@@ -20,7 +20,7 @@ const HomeHeroSection = () => {
         </p>
         <p  className="p_2">
           No lump sum (flexible payment), no endless search, no outrageous
-          < br /> 
+          < br />
           inspection and agency fees. Move in instantly.
         </p>        
         <div className="hero__container">

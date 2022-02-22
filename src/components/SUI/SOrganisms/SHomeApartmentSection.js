@@ -9,29 +9,33 @@ const SHomeApartmentSection = () => {
     <section className="SApartment">
             <div className="SApartment__container-1 container">
                 <div className="SApartment__container-i">
-                    <h1>
+                    <h1 className='new'>
                         Start Getting Paid in Two Steps
                     </h1>
                 </div>
                 <div className="SApartment__container-3">
                   <div className="SApartment__container-4">
                     <img src={ImageOne} alt="Icon" />
-                    <h1>List your property</h1>
-                    <p>To get started, fill out the  basic information 
-                      <br />
-                      required and our staff will contact you.</p>
+                    <div className="apply__late">
+                      <h1>List your property</h1>
+                      <p>To get started, fill out the  basic information 
+                        <br />
+                        required and our staff will contact you.</p>                      
+                    </div>
                   </div>
                   <div className="SApartment__container-5">
                     <img src={SDotted} alt="Logo" />
                   </div>
                   <div className="SApartment__container-4">
                     <img src={ImageTwo} alt="Logo" />
-                    <h1>Get Paid</h1>
-                      <p>
-                          Now a Rentgage Landlord?
-                          <br />
-                          Get your rent on time.
-                       </p>
+                    <div className='apply__late'>
+                      <h1>Get Paid</h1>
+                        <p>
+                            Now a Rentgage Landlord?
+                            <br />
+                            Get your rent on time.
+                        </p>
+                    </div>
                   </div>
                 </div>
             </div>

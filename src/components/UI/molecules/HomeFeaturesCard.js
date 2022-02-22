@@ -1,4 +1,4 @@
-import React from 'react'
+ import React from 'react'
 // import backgroundIllustration from '../../../assets/images/card-background-illustration.svg';
 
 const HomeFeaturesCard = ({image, title, children}) => {
