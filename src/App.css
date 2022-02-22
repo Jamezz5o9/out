@@ -373,7 +373,7 @@ a{
     margin-bottom: 70px;    
     border-bottom-left-radius: 0px;
 }
-.letter_button > button > a{
+.letter_button > a > button{
     text-decoration:none;
     color:#fff;
 }
