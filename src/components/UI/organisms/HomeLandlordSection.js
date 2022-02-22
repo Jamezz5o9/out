@@ -21,9 +21,7 @@ const HomeLandlordSection = () => {
             <br />
              rent even faster.
         </p>    
-        <button className='landlord__container-button'>
-            Get started
-        </button>     
+        <button className='landlord__container-button'><a href="https://forms.gle/tWT5FnE7rDmV7Lqv9" target='_blank' >Get started</a></button>     
       </div>
       <div className="landlord_img">
          <img src={BlackIllustration} alt="business app" />

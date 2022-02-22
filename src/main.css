@@ -25,12 +25,16 @@ Link{
     color: #0F2F66;
     margin-bottom: 48px;
 }
-.Shero__button{
+.Shero__button {
     padding: 0.6rem 6rem;
     font-weight: bold;
     font-size: 16px;
     line-height: 30px;
     color: #FFFFFF;
+}
+.hero__container-button > a{
+    text-decoration:none;
+    color:#fff;
 }
 .Shero__container1 > img{
     height: 2.5rem;
@@ -112,6 +116,9 @@ Link{
     color: #0F2F66;
     padding-bottom: 105px;
 }
+.apply__late{
+    margin-top: -150px;
+}
 .SApartment__container-3{
     display: flex;
     justify-content: center;
@@ -119,7 +126,7 @@ Link{
     text-align:center;
 }
 .SApartment__container-5 > img{
-    padding-bottom: 290px;
+    padding-bottom: 120px;
     
 }
 .SApartment__container-4 > h1{

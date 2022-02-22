@@ -8,8 +8,8 @@ const AllRoutes = () => {
         <BrowserRouter>
          <Layout>
             <Switch>
-                <Route exact path="/landlord" component={SHome} />
                 <Route exact path="/" component={Home} />
+                <Route exact path="/landlord" component={SHome} />
             </Switch>
          </Layout>
         </BrowserRouter>

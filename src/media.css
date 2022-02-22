@@ -18,7 +18,7 @@ body{
     
 }
 .header_img{
-   height: 32px;  
+   height: 35px;  
 }
 .header_p_1{
     font-style: normal;
@@ -32,16 +32,16 @@ body{
     font-family: DM Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 8px;
-    line-height: 12px;
+    font-size: 11px;
+    line-height: 18px;
     color: #224E9C;
-    padding-right: 14px;
+    padding-right: 16px;
 }
 .header_p_3{
     font-style: normal;
     font-weight: bold;
-    font-size: 9px;
-    line-height: 12px;
+    font-size: 11px;
+    line-height: 18px;
     display: flex;
     align-items: flex-end;
     text-align: center;
@@ -182,14 +182,12 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;    
-    padding:1rem;
 }
 .SFeature__container-main{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;    
-    padding:1rem;
     margin-top: -30px;
 }
 /* End of Hero Section */
@@ -261,6 +259,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top:-60px;
 }
 .apply__new{
     margin-top: -120px;
@@ -294,8 +293,8 @@ body{
 .new{
     font-style: normal;
     font-weight: bold;
-    font-size: 26px;
-    line-height: 34px;
+    font-size: 28px !important;
+    line-height: 38px !important;
     text-align: center;
     color: #0F2F66;
    

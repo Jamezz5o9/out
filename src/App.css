@@ -14,6 +14,10 @@ body{
     min-height: 100vh;
     width: 100%
 }
+a{
+    text-decoration: none;
+    cursor: pointer;    
+}
 .container{
    margin: 0 90px; 
 }
@@ -44,20 +48,20 @@ body{
 }
 .header_p_2{
     font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 24px;
+    line-height: 36px;
     color: #224E9C;
-    padding-right: 40px;
+    padding-right: 80px;
 }
 .header_p_3{
    
     padding: .4rem 1.5rem;
     font-style: bold; 
-    font-weight: 500;  
+    font-weight: normal;  
     background: rgb(217, 231, 255, 0.3);
     border-radius: 20px;
     color: #224E9C;    
-    font-size: 1.07rem;
+    font-size: 1.4rem;
 }
 .header_img{
     height:66px;
@@ -316,6 +320,10 @@ body{
     line-height: 25px;
     color: #FFFFFF;
     border: none;
+}
+.landlord__container-button > a{
+    text-decoration: none;
+    color: white;
 }
 .right__rectangle::after{
     content: '';
