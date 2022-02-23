@@ -25,13 +25,19 @@ a{
 .header{
     display: flex;
     justify-content: space-between;
-    align-items: center;    
-     
+    align-items: stretch;    
+     position: relative;
+     z-index: 5;
 }
 .header_p{
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: space-between;
+}
+.header_p > div {
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
 .header_1{
     background: #FFFFFF;
@@ -52,6 +58,9 @@ a{
     line-height: 36px;
     color: #224E9C;
     padding-right: 80px;
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
 .header_p_3{
    
@@ -80,6 +89,8 @@ a{
 .hero_h1_p{
     align-items: center;
     padding-top: 80px;
+    position: relative;
+    z-index: 1;
 }
 .hero_h1_p h1{
     font-family: Satoshi;
@@ -373,7 +384,7 @@ a{
     margin-bottom: 70px;    
     border-bottom-left-radius: 0px;
 }
-.letter_button > a > button{
+.letter_button > button > a{
     text-decoration:none;
     color:#fff;
 }

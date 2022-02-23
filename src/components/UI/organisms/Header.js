@@ -18,7 +18,9 @@ const Header = () => {
               <Link to='/landlord'>
                 <p className="header_p_2">Landlord</p>
               </Link>
+              <div>
                 <p className='header_p_3'>Coming soon</p>
+              </div>
               
             
             </div>
