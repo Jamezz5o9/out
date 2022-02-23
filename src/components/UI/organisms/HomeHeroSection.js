@@ -25,7 +25,7 @@ const HomeHeroSection = () => {
         </p>        
         <div className="hero__container">
           <div>
-              <button className='hero__container-button'><a href="https://forms.gle/tWT5FnE7rDmV7Lqv9" target="blank">Join the waitlist</a></button>
+              <button className='hero__container-button'><a href="https://forms.gle/tWT5FnE7rDmV7Lqv9" target="_blank" rel="noreferrer">Join the waitlist</a></button>
           </div>
           <div className="hero__container1">
               <img className="hero__container1__img1"  src={Google} alt="Playstore-icon" />                
