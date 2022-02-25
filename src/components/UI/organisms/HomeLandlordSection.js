@@ -1,10 +1,11 @@
 import React from 'react';
 import BlackIllustration from '../../../assets/images/black-businessman.png';
-
-
+import { useHistory } from "react-router-dom";
 
 
 const HomeLandlordSection = () => {
+const history = useHistory()
+
   return (
     <section className="landlord right__rectangle">
     <div className="landlord_header container ">
@@ -21,7 +22,7 @@ const HomeLandlordSection = () => {
             <br />
              rent even faster.
         </p>    
-        <button className='landlord__container-button'><a href="https://forms.gle/tWT5FnE7rDmV7Lqv9" rel="noreferrer" target='_blank' >Get started</a></button>     
+        <button className='landlord__container-button' onClick={()=> history.push('./landlord')}>Get started</button>     
       </div>
       <div className="landlord_img">
          <img src={BlackIllustration} alt="business app" />
