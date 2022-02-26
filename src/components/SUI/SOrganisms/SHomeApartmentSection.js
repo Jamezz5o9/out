@@ -18,7 +18,7 @@ const SHomeApartmentSection = () => {
                     <img src={ImageOne} alt="Icon" />
                     <div className="apply__late">
                       <h1>List your property</h1>
-                      <p>To get started, fill out the  basic information 
+                      <p>To <span><a href="https://forms.gle/tWT5FnE7rDmV7Lqv9" target="_blank" rel="noopener noreferrer">get started</a></span>, fill out the  basic information 
                         <br />
                         required and our staff will contact you.</p>                      
                     </div>

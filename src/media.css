@@ -198,32 +198,36 @@ body{
     margin-bottom:-3rem;
 }
 .Shero__container1 > img{
-    height: 2.5rem;
+    height: 2.0rem;
 }
+
 .Shero_h1_p > h1{
     font-size: 26px;
     line-height: 35px;
     font-weight: bold;
     padding-bottom: 30px;
+    margin-bottom:-2px;
 }
 .Shero_img > img{
     height: 0;
     width: 0;
     padding-bottom:0;
+    
 }
 .SHome{
+    width: 100%;
     background-image: url('../src/assets/images/empy-room.png');
-    background-size:cover;    
+    background-size:contain;    
     background-repeat:no-repeat;
+    background-position:center;
     
 }
 .Shero_header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin-bottom:0px;
-   
+    width: 80%;
+    margin-bottom:-4rem;
 }
 .SFeature__container-2 > h1{
     font-style: normal;
@@ -240,25 +244,27 @@ body{
     flex-direction: column;    
 }
 .SFeature{
-    padding-top:30px;
+    padding:24px 0px;
+    width: 100%;
 }
 .Shero__button{
     background: #005CE6;
     border-radius: 10px;
-    padding: 9px 2.5rem;
+    padding: 10px 2.3rem;
     border: none;
     color: #fff;
-    margin-bottom:24px;
-    font-size: 15px;
-    line-height: 32px;
+    margin-bottom:16px;
+    font-size: 12px;
+    line-height: 16px;
 }
 .SFeature__container-1{
     padding-bottom: 5px;
+    width: 80%;
+    margin: 0 auto;
 }
 .SFeature__container-minor{
     display:flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;    
 }
 .SFeature__container-main{
@@ -268,24 +274,41 @@ body{
     align-items: center;    
     margin-top: -30px;
 }
+.SFeature__container-mini1{
+    height: 70px;
+}
+.SFeature__container-mini2{
+    font-size: 12px;
+    line-height: 16px;
+}
+.SFeature__container-mini3{
+    font-size: 10px;
+    line-height: 14px;
+}
 /* End of Hero Section */
 /*Feature Section */
 .feature{
-    padding-top:26px 0px;    
+    width: 100%;
+    margin: 0 auto;
+    padding: 24px 0;
     background: #ECF4FF;
 }
 .set_features{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: column;    
     align-items: center;   
 
+}
+.feature_header{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 15px;
 }
 .feature_h1 > h1{
     font-style: normal;
     font-weight: bold;
-    font-size: 22px;
-    line-height: 28px;
+    font-size: 20px;
+    line-height: 26px;
     color: #0F2F66;
 }
 .features_card{
@@ -293,45 +316,62 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;    
-    padding:1rem;
+    padding: 1rem 0px;  
 }
 .features_card_h1{
     font-style: normal;
     font-weight: bold;    
     color: #0F2F66;    
     padding-right: 30px;
-
+    margin-bottom: -15px;
+    font-size: 14px;
+    line-height: 20px;    
 }
 .feature__1 > img{
-    height: 60px;
+    padding-top: 20px;
+    height: 70px;
 }
 .features_card_p{     
     font-style: normal;
     font-weight: normal;    
     color: #0F2F66;
     padding-right: 30px;
+    font-size: 10px;
+    line-height: 14px;
 }
 .SFeature__container-1{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;    
-    padding:1rem;
-    
+    padding:1rem;    
+}
+.SFeature__container-2 > h1{
+    font-size: 18px;
+    line-height: 26px;    
 }
 
 /* End Of Feature Section */
 /* Apartment Section */
 .apartment{
     padding: 24px 0;
+    width: 100%;
+}
+.SApartment{
+    width: 100%;
 }
 .apartment_container{
-    display: flex;
-    justify-content: center;
+    width: 80%;
+    display: flex;    
     align-items: center;
     flex-direction: column;
+    margin: 0 auto;
+    
 }
-
+.SApartment__container-1{
+    width: 80%;
+    margin: 0 auto;
+}
 .SApartment__container-3{
     display: flex;
     justify-content: center;
@@ -339,14 +379,36 @@ body{
     flex-direction: column;
     margin-top:-60px;
 }
+.SApartment__container-4 > div > h1{
+    font-size: 14px;
+    line-height: 20px;
+}
+.SApartment__container-4 > div > p{
+    font-size: 10px;
+    line-height: 14px;
+}
+.SApartment__container-4 > img {
+    height: 11rem;
+}
 .apply__new{
-    margin-top: -120px;
+    margin-top: -110px;   
+}
+.apply__new  h1{
+    margin-bottom: 7px;    
+}
+.set__apartment_group > div > h1{
+    font-size: 14px;
+    line-height: 20px;
+}
+.set__apartment_group > div > p{
+    font-size: 10px;
+line-height: 14px;
 }
 .apartment_1 > h1{
     font-style: normal;
     font-weight: bold;
-    font-size: 26px;
-    line-height: 34px;
+    font-size: 20px;
+    line-height: 28px;
     text-align: center;
     color: #0F2F66;
     padding-bottom: 0;
@@ -366,13 +428,13 @@ body{
     height: 90px;
 }
 .apply__late{
-    margin-top: -150px;
+    margin-top: -90px;
 }
-.new{
+.SApartment__container-i > h1{
     font-style: normal;
     font-weight: bold;
-    font-size: 28px !important;
-    line-height: 38px !important;
+    font-size: 18px !important;
+    line-height: 26px !important;
     text-align: center;
     color: #0F2F66;
    
@@ -388,27 +450,40 @@ body{
 }
 /* End of Apartment Section */
 /* LandLord Section */
+.landlord {
+    width: 100%;
+}
+.landlord_header{
+    width: 80%;
+}
+.landlord_h1_p{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;    
+}
+.landlord_p_2{
+    text-align:left;
+}
 .landlord_img > img{
-    width: 150.53px;
-    height: 200px;
+    width: 180.53px;
+    height: 220px;
     padding-top: 20px;
     
 }
 .landlord_h1_p > h1{
     font-style: normal;
     font-weight: bold;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 20px;
     color: #0F2F66;;
 }
 .landlord_h1_p > button{
     background: #005CE6;
     border-radius: 10px;
-    padding: 5px 25px;
-    margin-left: 35px;
+    padding: 5px 20px;    
     font-style: normal;    
-    font-size: 15px;
-    line-height: 25px;
+    font-size: 12px;
+    line-height: 23px;
     color: #FFFFFF;
     border: none;
     
@@ -416,22 +491,22 @@ body{
 .landlord_h1_p > p{
     font-style: normal;
     font-weight: normal;
-    font-size: 11px;
-    line-height: 12px;    
+    font-size: 10px;
+    line-height: 14px;    
     color: #3B7980;
-    margin-bottom:0;
+    margin-bottom:-15px;
 }
 
 /* End of Landlord Section */
 /* Newletter */
-.letter_h1_1{    
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 18px;    
-    text-align: center;    
-    color: #0F2F66;
+.letter{
+    width: 100%;
 }
+.letter_1{
+    width: 80%;
+    margin: 0 auto;
+}
+
 .letter_button > button {
     background: #005CE6;
     border-radius: 10px 10px 10px 0px;
@@ -446,8 +521,8 @@ body{
     padding-bottom: 1.5rem;
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 26px;
     color: #0F2F66;
 }
 .letter_p_2 > img{
@@ -458,21 +533,28 @@ body{
     padding-bottom: 2rem;
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 26px;
     color: #0F2F66;
 }
 .fcmb{
-    height: 3rem;
+    height: 5.7rem;
 }
 .letter_h1_1 > h1{
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 14px;
+    line-height: 20px;
 }
 /* End of NewsLetter section */
 /* footer Section */
+.footer{
+    width: 100%
+}
+.footer_c{
+    width: 80%;
+    margin: 0 auto;
+}
 .footer_c p:nth-child(2){
     font-style: normal;
     font-weight: bold;

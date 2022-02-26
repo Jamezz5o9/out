@@ -57,7 +57,7 @@ const HomeApartmentSection = () => {
                         <img src={Search} alt="Seach" />
                         <div className='apply__new'>
                             <h1>Find an Apartment</h1>
-                            <p>Sign up on our mobile and select an apartment that suits you.</p>
+                            <p className="apply__new-2">Sign up on our mobile and select an apartment that suits you.</p>
                         </div>
                     </div>                    
                 </div>
