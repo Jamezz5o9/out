@@ -9,6 +9,9 @@ body{
 .container{
     margin: 0 auto;
 }
+.header_p_2{
+    display:;
+}
 .header{
     padding: 0.3rem;
     /* position: fixed; */
@@ -161,7 +164,7 @@ body{
     line-height: 26px;
     text-align: center;
     color: #0F2F66;
-    margin-bottom: 3px;
+    margin-bottom:9px;
 }
 .hero_h1_p p:nth-child(2){
     font-style: normal;
@@ -170,7 +173,7 @@ body{
     line-height: 20px;
     text-align: center;
     color: #3B7980;
-    margin-bottom: 3px;
+    margin-bottom: -16px;
 }
 .hero_h1_p p:nth-child(3){
     font-style: normal;
@@ -179,7 +182,7 @@ body{
     line-height: 13px;
     text-align: center;
     color: #3B7980;
-    margin-bottom: 12px;
+    margin-bottom: -9px;
 }
 .hero__container-button{
     background: #005CE6;
@@ -278,12 +281,15 @@ body{
     height: 70px;
 }
 .SFeature__container-mini2{
+    margin-top: -15px;
     font-size: 12px;
     line-height: 16px;
 }
 .SFeature__container-mini3{
     font-size: 10px;
     line-height: 14px;
+    margin-bottom: 15px;
+    margin-top:-6px;
 }
 /* End of Hero Section */
 /*Feature Section */
@@ -366,11 +372,12 @@ body{
     align-items: center;
     flex-direction: column;
     margin: 0 auto;
-    
+       
 }
 .SApartment__container-1{
     width: 80%;
     margin: 0 auto;
+    
 }
 .SApartment__container-3{
     display: flex;
@@ -378,17 +385,25 @@ body{
     align-items: center;
     flex-direction: column;
     margin-top:-60px;
+    margin-bottom: -60px;
 }
 .SApartment__container-4 > div > h1{
     font-size: 14px;
     line-height: 20px;
+    color: #3B7980;
+    margin-bottom:0px;
 }
 .SApartment__container-4 > div > p{
     font-size: 10px;
     line-height: 14px;
+    color: #3B7980;
+    margin-bottom: -10px;
 }
 .SApartment__container-4 > img {
     height: 11rem;
+}
+.span span  a{    
+    border-bottom: 1px solid black;
 }
 .apply__new{
     margin-top: -110px;   
@@ -396,13 +411,16 @@ body{
 .apply__new  h1{
     margin-bottom: 7px;    
 }
+.set_apartment{
+    margin-bottom: -60px;
+}
 .set__apartment_group > div > h1{
     font-size: 14px;
     line-height: 20px;
 }
 .set__apartment_group > div > p{
     font-size: 10px;
-line-height: 14px;
+    line-height: 14px;
 }
 .apartment_1 > h1{
     font-style: normal;
@@ -426,6 +444,7 @@ line-height: 14px;
 }
 .SApartment__container-5{
     height: 90px;
+    margin-top:-60px;
 }
 .apply__late{
     margin-top: -90px;
@@ -466,7 +485,7 @@ line-height: 14px;
 }
 .landlord_img > img{
     width: 180.53px;
-    height: 220px;
+    height: 250px;
     padding-top: 20px;
     
 }
@@ -510,7 +529,7 @@ line-height: 14px;
 .letter_button > button {
     background: #005CE6;
     border-radius: 10px 10px 10px 0px;
-    padding:8px 60px;
+    padding:10px 50px;
     margin: 2rem;
     font-size: 1rem;
     border-style: none;    
@@ -525,9 +544,9 @@ line-height: 14px;
     line-height: 26px;
     color: #0F2F66;
 }
-.letter_p_2 > img{
+.letter_p_2 > a > img{
     padding-bottom: 4rem;
-    height: 100px;
+    height: 110px;
 }
 .letter_p_3 > p{
     padding-bottom: 2rem;
@@ -562,7 +581,7 @@ line-height: 14px;
     line-height: 20px;
     text-align: center;
     color: #0F2F66;
-    padding-bottom: 35px;
+    padding-bottom: 20px;
 }
 .footer_c p:nth-child(3){
     font-style: normal;
@@ -571,9 +590,9 @@ line-height: 14px;
     line-height: 18px;
     color: #0F2F66;    
 }
-.footer_img > img{   
-    padding-bottom:30px;
-    height: 60px;
+.footer_img a img{   
+    padding-bottom:20px;
+    height: 40px;
 }
 /* End of Footer Section */
 }
