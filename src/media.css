@@ -91,7 +91,7 @@ body{
     display: flex;    
 }
 .header_img{
-   height:50px;  
+   height: 40px;  
 }
 .header_p_1{
     font-style: normal;
@@ -167,7 +167,7 @@ body{
 .hero_h1_p > h1{
     font-style: normal;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 28px !important;
     line-height: 1.5;
     text-align: center;
     color: #0F2F66;
@@ -176,7 +176,7 @@ body{
 .hero_h1_p p:nth-child(2){
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.5;
     text-align: center;
     color: #3B7980;
@@ -185,7 +185,7 @@ body{
 .hero_h1_p p:nth-child(3){
     font-style: normal;
     font-weight: normal;     
-    font-size: 11px;
+    font-size: 14px;
     line-height: 1.5;
     text-align: center;
     color: #3B7980;
@@ -194,7 +194,7 @@ body{
 .hero__container-button{
     background: #005CE6;
     border-radius: 10px;
-    padding: 9px 1.5rem;
+    padding: 9px 2.3rem;
     border: none;
     color: #fff;
     margin-bottom:10px;
@@ -202,7 +202,7 @@ body{
     line-height: 1.5;
 }
 .hero__container1 img{       
-    height: 1.8rem;
+    height: 2.2rem;
 }
 .hero__container1{
     margin-bottom:-3rem;
@@ -242,7 +242,7 @@ body{
 .SFeature__container-2 > h1{
     font-style: normal;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 36px;
     line-height: 1.5;
     color: #0F2F66;
 }
@@ -290,11 +290,11 @@ body{
 .SFeature__container-mini2{
     font-weight: bold;
     margin-top: -5px;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.5;
 }
 .SFeature__container-mini3{
-    font-size: 12px;
+    font-size: 16px;
     line-height: 1.5;
     margin-bottom: 15px;
     margin-top:-6px;
@@ -325,7 +325,7 @@ body{
 .feature_h1 > h1{
     font-style: normal;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 26px;
     line-height: 1.5;
     color: #0F2F66;
     margin-top: 10px;
@@ -343,7 +343,7 @@ body{
     color: #0F2F66;    
     padding-right: 30px;
     margin-bottom: 0;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.5;    
 }
 .feature__1 > img{
@@ -356,7 +356,7 @@ body{
     font-weight: normal;    
     color: #0F2F66;
     padding-right: 30px;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 1.5;
 }
 .SFeature__container-1{
@@ -402,13 +402,13 @@ body{
     margin-bottom: -60px;
 }
 .SApartment__container-4 > div > h1{
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
     color: #3B7980;
     margin-bottom:-5px;
 }
 .SApartment__container-4 > div > p{
-    font-size: 12px;
+    font-size: 16px;
     line-height: 1.5;
     color: #3B7980;
     margin-bottom: -10px;
@@ -430,18 +430,18 @@ body{
     margin-bottom: -60px;
 }
 .set__apartment_group > div > h1{
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
     
 }
 .set__apartment_group > div > p{
-    font-size: 12px;
+    font-size: 16px;
     line-height: 1.5;
 }
 .apartment_1 > h1{
     font-style: normal;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 26px;
     line-height: 1.5;
     text-align: center;
     color: #0F2F66;
@@ -468,7 +468,7 @@ body{
 .SApartment__container-i > h1{
     font-style: normal;
     font-weight: bold;
-    font-size: 18px !important;
+    font-size: 24px !important;
     line-height: 1.5 !important;
     text-align: center;
     color: #0F2F66;
@@ -528,7 +528,7 @@ body{
 .landlord_h1_p > p{
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.5;    
     color: #3B7980;
     margin-bottom:-15px;
@@ -596,7 +596,7 @@ body{
 .footer_c p:nth-child(2){
     font-style: normal;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 1.5;
     text-align: center;
     color: #0F2F66;
@@ -605,13 +605,14 @@ body{
 .footer_c p:nth-child(3){
     font-style: normal;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 11px;
     line-height: 1.5;
     color: #0F2F66;    
 }
 .footer_img a img{   
     padding-bottom:20px;
     height: 40px;
+    margin-left: 20px;
 }
 /* End of Footer Section */
 }
