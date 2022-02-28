@@ -2,7 +2,7 @@ import React from 'react'
 import TwitterIcon from '../../../assets/icons/Instagram.svg';
 import InstagramIcon from '../../../assets/icons/Twitter.svg';
 import LinkedInIcon from "../../../assets/icons/LinkedIn.svg";
-import FacebookIcon from "../../../assets/icons/Facebook.svg";
+// import FacebookIcon from "../../../assets/icons/Facebook.svg";
 
 
 const Footer = () => {
@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="footer_c container">
         <div className="footer_img">
             {/* <a href="#">
-                <img src={FacebookIcon} alt="Facebook icon" />
+                <img src={} alt="Facebook icon" />
             </a> */}
             <a href="https://twitter.com/rentgage?s=21" target="_blank" rel="noopener noreferrer">
                 <img src={InstagramIcon} alt="Twitter icon" />
