@@ -90,7 +90,7 @@ body{
     font-style: normal;
     font-weight: bold;
     font-size: 8px;
-    line-height: 12px;
+    line-height: 1.5;
     color: #0F2F66;
     padding-right: 14px;
 }
@@ -99,7 +99,7 @@ body{
     font-style: normal;
     font-weight: bold;
     font-size: 11px;
-    line-height: 18px;
+    line-height: 1.5;
     color: #224E9C;
     padding-right: 16px;
 }
@@ -107,7 +107,7 @@ body{
     font-style: normal;
     font-weight: bold;
     font-size: 11px;
-    line-height: 18px;
+    line-height: 1.5;
     display: flex;
     align-items: flex-end;
     text-align: center;
@@ -160,8 +160,8 @@ body{
 .hero_h1_p > h1{
     font-style: normal;
     font-weight: bold;
-    font-size: 18px;
-    line-height: 26px;
+    font-size: 20px;
+    line-height: 1.5;
     text-align: center;
     color: #0F2F66;
     margin-bottom:9px;
@@ -169,8 +169,8 @@ body{
 .hero_h1_p p:nth-child(2){
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 14px;
+    line-height: 1.5;
     text-align: center;
     color: #3B7980;
     margin-bottom: -16px;
@@ -178,8 +178,8 @@ body{
 .hero_h1_p p:nth-child(3){
     font-style: normal;
     font-weight: normal;     
-    font-size: 9px;
-    line-height: 13px;
+    font-size: 11px;
+    line-height: 1.5;
     text-align: center;
     color: #3B7980;
     margin-bottom: -9px;
@@ -192,7 +192,7 @@ body{
     color: #fff;
     margin-bottom:10px;
     font-size: 12px;
-    line-height: 16px;
+    line-height: 1.5;
 }
 .hero__container1 img{       
     height: 1.8rem;
@@ -206,7 +206,7 @@ body{
 
 .Shero_h1_p > h1{
     font-size: 26px;
-    line-height: 35px;
+    line-height: 1.5;
     font-weight: bold;
     padding-bottom: 30px;
     margin-bottom:-2px;
@@ -236,7 +236,7 @@ body{
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
-    line-height: 36px;
+    line-height: 1.5;
     color: #0F2F66;
 }
 .hero__container{
@@ -258,7 +258,7 @@ body{
     color: #fff;
     margin-bottom:16px;
     font-size: 12px;
-    line-height: 16px;
+    line-height: 1.5;
 }
 .SFeature__container-1{
     padding-bottom: 5px;
@@ -282,12 +282,12 @@ body{
 }
 .SFeature__container-mini2{
     margin-top: -15px;
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 14px;
+    line-height: 1.5;
 }
 .SFeature__container-mini3{
-    font-size: 10px;
-    line-height: 14px;
+    font-size: 12px;
+    line-height: 1.5;
     margin-bottom: 15px;
     margin-top:-6px;
 }
@@ -314,7 +314,7 @@ body{
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
-    line-height: 26px;
+    line-height: 1.5;
     color: #0F2F66;
 }
 .features_card{
@@ -331,7 +331,7 @@ body{
     padding-right: 30px;
     margin-bottom: -15px;
     font-size: 14px;
-    line-height: 20px;    
+    line-height: 1.5;    
 }
 .feature__1 > img{
     padding-top: 20px;
@@ -342,8 +342,8 @@ body{
     font-weight: normal;    
     color: #0F2F66;
     padding-right: 30px;
-    font-size: 10px;
-    line-height: 14px;
+    font-size: 12px;
+    line-height: 1.5;
 }
 .SFeature__container-1{
     display:flex;
@@ -354,7 +354,7 @@ body{
 }
 .SFeature__container-2 > h1{
     font-size: 18px;
-    line-height: 26px;    
+    line-height: 1.5;    
 }
 
 /* End Of Feature Section */
@@ -388,14 +388,14 @@ body{
     margin-bottom: -60px;
 }
 .SApartment__container-4 > div > h1{
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 1.5;
     color: #3B7980;
     margin-bottom:0px;
 }
 .SApartment__container-4 > div > p{
-    font-size: 10px;
-    line-height: 14px;
+    font-size: 12px;
+    line-height: 1.5;
     color: #3B7980;
     margin-bottom: -10px;
 }
@@ -415,18 +415,18 @@ body{
     margin-bottom: -60px;
 }
 .set__apartment_group > div > h1{
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 1.5;
 }
 .set__apartment_group > div > p{
-    font-size: 10px;
-    line-height: 14px;
+    font-size: 12px;
+    line-height: 1.5;
 }
 .apartment_1 > h1{
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
-    line-height: 28px;
+    line-height: 1.5;
     text-align: center;
     color: #0F2F66;
     padding-bottom: 0;
@@ -453,7 +453,7 @@ body{
     font-style: normal;
     font-weight: bold;
     font-size: 18px !important;
-    line-height: 26px !important;
+    line-height: 1.5 !important;
     text-align: center;
     color: #0F2F66;
    
@@ -492,9 +492,10 @@ body{
 .landlord_h1_p > h1{
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
-    line-height: 20px;
-    color: #0F2F66;;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #0F2F66;
+    margin-bottom: -10px;
 }
 .landlord_h1_p > button{
     background: #005CE6;
@@ -502,7 +503,7 @@ body{
     padding: 5px 20px;    
     font-style: normal;    
     font-size: 12px;
-    line-height: 23px;
+    line-height: 1.5;
     color: #FFFFFF;
     border: none;
     
@@ -510,10 +511,11 @@ body{
 .landlord_h1_p > p{
     font-style: normal;
     font-weight: normal;
-    font-size: 10px;
-    line-height: 14px;    
+    font-size: 12px;
+    line-height: 1.5;    
     color: #3B7980;
     margin-bottom:-15px;
+    width: 100%;
 }
 
 /* End of Landlord Section */
@@ -541,7 +543,7 @@ body{
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.5;
     color: #0F2F66;
 }
 .letter_p_2 > a > img{
@@ -553,7 +555,7 @@ body{
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.5;
     color: #0F2F66;
 }
 .fcmb{
@@ -562,8 +564,8 @@ body{
 .letter_h1_1 > h1{
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 1.5;
 }
 /* End of NewsLetter section */
 /* footer Section */
@@ -578,7 +580,7 @@ body{
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
-    line-height: 20px;
+    line-height: 1.5;
     text-align: center;
     color: #0F2F66;
     padding-bottom: 20px;
@@ -587,7 +589,7 @@ body{
     font-style: normal;
     font-weight: bold;
     font-size: 10px;
-    line-height: 18px;
+    line-height: 1.5;
     color: #0F2F66;    
 }
 .footer_img a img{   

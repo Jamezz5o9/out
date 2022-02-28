@@ -20,9 +20,9 @@ const HomeHeroSection = () => {
               On Rentgage, FIND a home that suits you.
             </p>
             <p  className="p_2">
-              No lump sum (flexible payment), no endless search, no outrageous
-              < br />
-              inspection and agency fees. Move in instantly.
+              No lump sum (flexible payment), no endless search, 
+              <br />
+              no outrageous inspection and agency fees. Move in instantly.
             </p>     
                     
           <div className="hero__container">

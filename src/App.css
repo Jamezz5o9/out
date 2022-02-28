@@ -177,6 +177,7 @@ a{
     padding-top:54px;
     padding-bottom: 77px;
     background: #ECF4FF;
+    width:100%;
 }
 .feature_h1 > h1{
     text-align: center;    
@@ -192,18 +193,18 @@ a{
     display: grid;    
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 0.2rem;    
+    margin-bottom: -50px;
+    
 }
 
 .features_card{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    margin: 0px 35px;
+    margin: 0 auto;
     background-repeat: no-repeat;
     box-sizing: border-box;
     border-radius: 15px; 
-    padding: 40px;
+    padding: 13px 40px;
    
 }
 .feature__1 > img{
@@ -214,26 +215,35 @@ a{
 }
 .feature__2{
     padding-left:40px;
+    margin-top: 17px;
 }
 
 .features_card_h1{       
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
-    line-height: 36px;
-    padding-bottom: 21px;
+    line-height: 1.5;
+    padding-bottom: 10px;
 }
 .features_card_p{     
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
-    line-height: 24px;
+    line-height: 1.5;
     color: #0F2F66;
 }
 /* End of Features section */
 /* Apartment Section */
+.set_apartment{
+    margin-bottom: -60px;
+}
 .apartment{
     padding: 1.3rem 4rem;
+    width: 100%;
+}
+.apartment__container{
+    width: 80%;
+    margin: 0 auto;
 }
 .apartment_1{ 
     display: flex;
@@ -294,13 +304,18 @@ a{
 
 /* Landlord Section */
 .landlord{
+    width: 100%;
     padding-top: 3rem;
+    margin: 0 auto;
 }
 .landlord_header{
+    flex:1;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
+    justify-content: center;
+    
+    
   }
 .landlord_img > img{
     width: 606.53px;
@@ -313,21 +328,27 @@ a{
     color: white;
     z-index: 1;
 }
+.landlord_h1_p{
+    margin-right: -35px;
+}
+
 .landlord_h1_p > h1{
     font-style: normal;
     font-weight: bold;
     font-size: 50px;
-    line-height: 67px;
+    line-height: 1.5;
     color: #0F2F66;
     padding-bottom:17px;
 }
 .landlord_h1_p > p{
     font-style: normal;
     font-weight: normal;
-    font-size: 13px;
-    line-height: 26px;
+    font-size: 20px;
+    line-height: 1.5;
     color: #3B7980;
     padding-bottom: 36px;
+    width: 40%;
+
 }
 .landlord_h1_p > button{
     background: #005CE6;

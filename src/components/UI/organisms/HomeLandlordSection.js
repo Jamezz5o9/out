@@ -17,9 +17,9 @@ const history = useHistory()
         </h1>       
         <p className="landlord_p_2">
             We help you get vetted tenants, rent out 
-            <br />
+            
             your apartment in lesser time and get your
-            <br />
+            
              rent even faster.
         </p>    
         <button className='landlord__container-button' onClick={()=> history.push('./landlord')}>Get started</button>     
