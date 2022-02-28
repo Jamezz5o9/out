@@ -57,19 +57,19 @@ Link{
     font-style: normal;
     font-weight: bold;
     font-size: 56px;
-    line-height: 84px;
+    line-height: 1.5;
     color: #0F2F66;
     padding-bottom: 65px;
 }
 .SFeature__container-main{
     display: flex;
-    justify-content: center;
+    
     align-items: center;  
     text-align: center;  
 }
 .SFeature__container-minor{
     display: flex;
-    justify-content: center;
+   
     align-items: center;
     flex-direction: column;
     text-align: center;
@@ -81,12 +81,12 @@ Link{
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
-    line-height: 33px;
+    line-height: 1.5;
     text-align: center;
     color: #0F2F66;
 }
 .SFeature__container-mini0{
-    padding: 1.1rem 2rem
+    padding: 0.1rem 1rem
 }
 .SFeature__container-mini3{
     font-style: normal;
@@ -94,7 +94,7 @@ Link{
      line-height: 20px;
     text-align: center;
     color: #0F2F66;
-    padding: 1.05rem 2.1rem;
+    padding: 0.5rem 1rem;
 }
 /* End of Feature Section */
 /* Apartment Section */

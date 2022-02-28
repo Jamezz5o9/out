@@ -275,13 +275,14 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;    
-    margin-top: -30px;
+    margin-top: -10px;
 }
 .SFeature__container-mini1{
     height: 70px;
 }
 .SFeature__container-mini2{
-    margin-top: -15px;
+    font-weight: bold;
+    margin-top: -5px;
     font-size: 14px;
     line-height: 1.5;
 }
@@ -290,6 +291,9 @@ body{
     line-height: 1.5;
     margin-bottom: 15px;
     margin-top:-6px;
+}
+.SFeature__container-mini0{
+    margin-bottom: 30px;
 }
 /* End of Hero Section */
 /*Feature Section */
@@ -302,7 +306,8 @@ body{
 .set_features{
     display: flex;
     flex-direction: column;    
-    align-items: center;   
+    align-items: center; 
+    margin-bottom: 10px;  
 
 }
 .feature_header{
@@ -316,6 +321,7 @@ body{
     font-size: 20px;
     line-height: 1.5;
     color: #0F2F66;
+    margin-top: 10px;
 }
 .features_card{
     display:flex;
@@ -329,13 +335,14 @@ body{
     font-weight: bold;    
     color: #0F2F66;    
     padding-right: 30px;
-    margin-bottom: -15px;
+    margin-bottom: 0;
     font-size: 14px;
     line-height: 1.5;    
 }
 .feature__1 > img{
     padding-top: 20px;
     height: 70px;
+    margin-bottom:-20px;
 }
 .features_card_p{     
     font-style: normal;
@@ -417,6 +424,7 @@ body{
 .set__apartment_group > div > h1{
     font-size: 16px;
     line-height: 1.5;
+    
 }
 .set__apartment_group > div > p{
     font-size: 12px;
@@ -478,7 +486,8 @@ body{
 .landlord_h1_p{
     display: flex;
     flex-direction: column;
-    align-items:flex-start;    
+    align-items:flex-start; 
+    margin-left:-10px;   
 }
 .landlord_p_2{
     text-align:left;

@@ -329,7 +329,7 @@ a{
     z-index: 1;
 }
 .landlord_h1_p{
-    margin-right: -35px;
+    margin-left: 50px;
 }
 
 .landlord_h1_p > h1{
@@ -348,7 +348,6 @@ a{
     color: #3B7980;
     padding-bottom: 36px;
     width: 40%;
-
 }
 .landlord_h1_p > button{
     background: #005CE6;
