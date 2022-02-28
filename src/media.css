@@ -398,7 +398,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     color: #3B7980;
-    margin-bottom:0px;
+    margin-bottom:-5px;
 }
 .SApartment__container-4 > div > p{
     font-size: 12px;
@@ -408,6 +408,7 @@ body{
 }
 .SApartment__container-4 > img {
     height: 11rem;
+    margin-bottom:-20px;
 }
 .span span  a{    
     border-bottom: 1px solid black;

@@ -10,9 +10,9 @@ const Footer = () => {
     <section className="footer new_footer">
         <div className="footer_c container">
         <div className="footer_img">
-            <a href="#">
+            {/* <a href="#">
                 <img src={FacebookIcon} alt="Facebook icon" />
-            </a>
+            </a> */}
             <a href="https://twitter.com/rentgage?s=21" target="_blank" rel="noopener noreferrer">
                 <img src={InstagramIcon} alt="Twitter icon" />
             </a>

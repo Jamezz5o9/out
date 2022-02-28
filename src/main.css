@@ -94,7 +94,7 @@ Link{
      line-height: 20px;
     text-align: center;
     color: #0F2F66;
-    padding: 0.5rem 1rem;
+    padding: 0.9rem 1rem;
 }
 /* End of Feature Section */
 /* Apartment Section */
@@ -108,6 +108,9 @@ Link{
     justify-content: center;
     align-items: center;
 }
+.span span  a{    
+    border-bottom: 1px solid black;
+}
 .SApartment__container-1 .SApartment__container-i > h1{
     font-style: normal;
     font-weight: bold;
@@ -119,6 +122,11 @@ Link{
 .apply__late{
     margin-top: -150px;
 }
+.apply__late > h1{
+    color: #3B7980; 
+    
+}
+
 .SApartment__container-3{
     display: flex;
     justify-content: center;
@@ -137,7 +145,7 @@ Link{
     text-align: center;
     color: #3B7980; 
 }
-.SApartment__container-4 > p{
+.SApartment__container-4 > div > p  {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
