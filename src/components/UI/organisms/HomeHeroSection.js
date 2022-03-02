@@ -27,7 +27,7 @@ const HomeHeroSection = () => {
                     
           <div className="hero__container">
             <div>
-              <button className='hero__container-button'><a href="https://forms.gle/YZMnrKVWbuE9q1NK8" target="_blank" rel="noopener noreferrer">Get Started</a></button>
+              <a href="https://forms.gle/YZMnrKVWbuE9q1NK8" target="_blank" rel="noopener noreferrer"><button className='hero__container-button'>Get Started</button></a>
             </div>
             <div className="hero__container1">
               <img className="hero__container1__img1"  src={Google} alt="Playstore-icon" />                

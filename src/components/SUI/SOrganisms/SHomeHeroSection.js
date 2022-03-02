@@ -16,7 +16,7 @@ const SHomeHeroSection = () => {
         </h1>        
         <div className="hero__container">
           <div>
-              <button className='hero__container-button Shero__button'><a href="https://forms.gle/tWT5FnE7rDmV7Lqv9"  target="_blank" rel="noreferrer" >Get Started</a></button>
+            <a href="https://forms.gle/tWT5FnE7rDmV7Lqv9"  target="_blank" rel="noreferrer"><button className='hero__container-button Shero__button'>Get Started</button></a>
           </div>
           <div className="hero__container1 Shero__container1">
               <img className="hero__container1__img1 Shero__container1-img"  src={Google} alt="Playstore-icon" />                
