@@ -545,7 +545,7 @@ body{
     margin: 0 auto;
 }
 
-.letter_button > button {
+.letter_button > a > button {
     background: #005CE6;
     border-radius: 10px 10px 10px 0px;
     padding:10px 50px;
