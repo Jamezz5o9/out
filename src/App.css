@@ -84,6 +84,9 @@ a{
 
 
 /* Hero Section */
+.Hero{
+    max-width: 1400px;
+}
 .hero_header{
     display: flex;
     align-items: flex-start;

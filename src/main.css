@@ -8,6 +8,7 @@ Link{
 /* Hero Section */
 .SHome{
     background-image: url('../src/assets/images/empy-room.png');
+    max-width: 1400px;
       
 }
 .Shero_header{
