@@ -10,14 +10,14 @@ const AccordionSection = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;  
-  height:70%; 
+  height:90%; 
  
 `;
 const Container = styled.div`  
-    padding: 2rem;
+    padding: 2.8rem 1.5rem;
     top: 10%;
-    box-shadow: 2px 10px 35px 1px rgba(153, 153, 153, 0.3);
-    max-width: 900px;
+    max-width: 1200px;
+    box-shadow: 2px 10px 35px 1px rgba(153, 153, 153, 0.3);    
 `;
 
 const Wrap = styled.div`  
@@ -27,20 +27,24 @@ const Wrap = styled.div`
   width: 100%;
   justify-content: space-between;
   text-align:left;
-  cursor: pointer;
+  cursor: pointer;  
+  border-bottom: 1px solid #0F2F66;   
+  margin: .5rem auto;  
+  height: 100%;
 
   h1 {
-    padding: 1.5rem;
+    padding: 1rem;
     font-size: 1.1rem;
     text-align: left;
+    font-weight: bold;
   }
 
   span {
     margin-right: 1.5rem;
+    transition: all .3s ease-out
   }
 `;
-const Dropdown = styled.div`  
-  
+const Dropdown = styled.div`    
   width: 100%;
   max-width: 700px;
   height: 100%;
@@ -49,15 +53,15 @@ const Dropdown = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-bottom: 1px solid #0F2F66;
-  border-top: 1px solid #0F2F66;  
+  margin: 0 auto;  
   transition: all .5s ease-out;
 
   p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding: 1rem;
-    color: #3B7980;
-    text-align: justify;
+    color:#0F2F66;
+    text-align: justify;  
+    font-weight: regular;  
   }
 `;
 
