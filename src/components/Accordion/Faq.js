@@ -5,8 +5,9 @@ const Container = styled.div`
   display: flex;
   align-items: justify;
   justify-content: center;
-  margin-top: 1rem;
+  margin-top: 2.5rem;
   margin-bottom: -1.5rem;
+  
 `;
 const Ideal = styled.div`
 display: flex;
