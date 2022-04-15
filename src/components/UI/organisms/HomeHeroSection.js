@@ -7,7 +7,7 @@ import Apple from '../../../assets/icons/ApplePlaystore.svg';
 
 const HomeHeroSection = () => {
   return (
-  <section className="Hero  left__rectangle">
+  <section className="Hero  left__rectangle" >
     <div className="hero_header container">
       <div className="hero_h1_p"> 
           

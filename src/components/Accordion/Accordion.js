@@ -16,7 +16,7 @@ const Container = styled.div`
   padding: 2.8rem 1.5rem;
   top: 10%;
   max-width: 1200px;
-  box-shadow: 2px 10px 20px 1px rgba(153, 153, 153, 0.1);
+  box-shadow: 2px 10px 30px 1px rgba(153, 153, 153, 0.1);
 `;
 
 const Wrap = styled.div`

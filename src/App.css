@@ -23,20 +23,26 @@ a{
 }
 .container{
    margin: 0 90px; 
+   
 }
 /* Header Section */
+.header_1{
+    position:sticky;
+    top: 0;
+    z-index: 999;
+}
 .header{
     display: flex;
     justify-content: space-between;
-    align-items: stretch;    
-    position: relative;
-    z-index: 5;
-    padding-top: .85rem;
+    align-items: stretch;     
+    z-index: 5;    
+    padding-top: .85rem;    
 }
+
 .header_p{
     display: flex;
     align-items: stretch;
-    justify-content: space-between;
+    justify-content: space-between;    
 }
 .header_p > div {
     display: flex;
@@ -45,7 +51,7 @@ a{
 }
 .header_1{
     background: #FFFFFF;
-    /* box-shadow: 0px 4px 4px rgba(146, 149, 152, 0.16); */
+    box-shadow: 0px 4px 4px rgba(146, 149, 152, 0.16);
 }
 .header_p_1{
     font-weight: bold;
@@ -67,8 +73,7 @@ a{
     padding-bottom: 10px;
 }
 
-.header_p_3{
-   
+.header_p_3{   
     padding: .4rem 1.5rem;
     font-style: bold; 
     font-weight: normal;  
@@ -84,7 +89,7 @@ a{
 
 /* Hero Section */
 .Hero{
-    max-width: 1400px;
+    max-width: 1400px;    
 }
 .hero_header{
     display: flex;
@@ -96,8 +101,7 @@ a{
 
 .hero_h1_p{
     align-items: center;
-    padding-top: 80px;
-    position: relative;
+    padding-top: 80px;    
     z-index: 1;
 }
 .hero_h1_p h1{
@@ -457,7 +461,7 @@ a{
     font-size: 16px;
     line-height: 24px;
     text-align: center;
-    color: #bec6d4;
+    color: #0F2F66;
     padding-bottom: 30px;
 }
 .footer_c p:nth-child(3){

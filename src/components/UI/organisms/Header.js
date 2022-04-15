@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "../../../assets/images/logo.svg";
 import { Link } from "react-router-dom";
 
+
 const Header = () => {
   return (
     <section className="header_1 ">
@@ -20,6 +21,9 @@ const Header = () => {
           </Link>
           <div>
             <p className="header_p_3">Coming soon</p>
+          </div>
+          <div>
+            
           </div>
         </div>
       </div>
