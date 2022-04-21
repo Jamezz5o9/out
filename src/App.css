@@ -173,8 +173,8 @@ a{
     background: #ECF4FF;
     z-index: -1;   
 }
-.hero_img > img{   
-    width: 607.58px;
+.hero_img > img{  
+    margin-left: 10%;     
     height: 700px;   
     padding-top: 80px;   
 }
@@ -242,6 +242,7 @@ a{
 /* End of Features section */
 /* Apartment Section */
 .set_apartment{
+    max-width: 1400px;
     margin-bottom: -60px;
 }
 .apartment{
