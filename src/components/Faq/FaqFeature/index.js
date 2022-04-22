@@ -5,6 +5,15 @@ import {
   FeatureWrapper,
   FeatureWrap,
   FeatureMenu,
+  Img1,
+  Img2,
+  Img3,
+  Img4,
+  Img5,
+  Img6,
+  Img7,
+  Img8,
+  Img9,
   FP,
   FS,
 } from "./FeatureElements";
@@ -19,6 +28,15 @@ const FaqFeature = () => {
               <FP>Avaiable between 8AM to 6PM WAT</FP>
               <FS>
                 <span></span> Unavailable
+                <Img1 />
+                <Img2 />
+                <Img3 />
+                <Img4 />
+                <Img5 />
+                <Img6 />
+                <Img7 />
+                <Img8 />
+                <Img9 />
               </FS>
             </FeatureMenu>
           </FeatureWrap>

@@ -13,21 +13,23 @@ const AccordionSection = styled.div`
   height: 90%;
 `;
 const Container = styled.div`
-  padding: 2.8rem 1.5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-top: 0;
+  padding-bottom: 3rem;
   top: 10%;
   max-width: 1200px;
-  box-shadow: 2px 10px 30px 1px rgba(153, 153, 153, 0.1);
 `;
 
 const Wrap = styled.div`
-  color: #0f2f66;
   display: flex;
   align-items: center;
   width: 100%;
+  padding: 1rem 0;
   justify-content: space-between;
   text-align: left;
   cursor: pointer;
-  border-bottom: 1px solid #0f2f66;
+  border-bottom: 1px solid #cdcdcd;
   margin: 0.5rem auto;
   height: 100%;
 
@@ -36,6 +38,7 @@ const Wrap = styled.div`
     font-size: 1.1rem;
     text-align: left;
     font-weight: bold;
+    color: #0f2f66;
   }
 
   span {
@@ -50,6 +53,7 @@ const Dropdown = styled.div`
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  background: #fafafa;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
@@ -58,7 +62,7 @@ const Dropdown = styled.div`
   p {
     font-size: 1.1rem;
     padding: 1rem;
-    color: #0f2f66;
+    color: #005ce6;
     text-align: justify;
     font-weight: regular;
   }

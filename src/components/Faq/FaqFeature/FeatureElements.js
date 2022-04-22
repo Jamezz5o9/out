@@ -6,6 +6,12 @@ export const FeatureSection = styled.div`
   width: 100%;
   margin-top: -4rem;
   z-index: 1;
+
+  @media screen and (max-width: 768px) {
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: -3rem;
+  }
 `;
 
 export const FeatureContainer = styled.div``;
@@ -20,6 +26,21 @@ export const FeatureWrapper = styled.div`
   border-radius: 5px;
   max-width: 1140px;
   height: 184px;
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 400px;
+    margin: 0 auto;
+    background: #dce2ff;
+    border: 1px solid #005ce6;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(15, 47, 102, 0.08);
+    border-radius: 5px;
+  }
 `;
 
 export const FeatureWrap = styled.div`
@@ -34,6 +55,21 @@ export const FeatureWrap = styled.div`
     border-bottom: 1px solid #0f2f66;
     padding-bottom: 0;
   }
+
+  @media screen and(max-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      color: #0f2f66;
+      font-size: 1rem;
+      line-height: 1.5;
+      border-bottom: 1px solid #0f2f66;
+      padding-bottom: 0;
+    }
+  }
 `;
 
 export const FeatureMenu = styled.div`
@@ -45,6 +81,10 @@ export const FeatureMenu = styled.div`
   text-align: left;
   align-items: center;
   padding-top: 15px;
+
+  @media screen and (max-width: 768px) {
+    margin: 0 auto;
+  }
 `;
 
 export const FP = styled.div`
@@ -77,3 +117,93 @@ export const FS = styled.div`
     bottom: 5px;
   }
 `;
+export const Img1 = styled.img`
+  position: absolute;
+  width: 165.16px;
+  height: 166.82px;
+  left: -12rem;
+  border-radius: 50%;
+  bottom: -20rem;
+  background: rgba(226, 195, 208, 0.15);
+  z-index: -1;
+`;
+export const Img2 = styled.img`
+  position: absolute;
+  width: 247.74px;
+  height: 250.23px;
+  left: 50rem;
+  border-radius: 50%;
+  bottom: -15rem;
+  background: rgba(0, 92, 230, 0.05);
+  z-index: -1;
+
+  @media screen and (max-width: 768px) {
+    position: absolute;
+    width: 165.16px;
+    height: 166.82px;
+    left: 15rem;
+    border-radius: 50%;
+    bottom: -18rem;
+    background: rgba(0, 92, 230, 0.05);
+    z-index: -1;
+  }
+`;
+export const Img3 = styled.img`
+  position: absolute;
+  width: 82.58px;
+  height: 83.41px;
+  left: 60rem;
+  border-radius: 50%;
+  bottom: -40rem;
+  background: rgba(0, 92, 230, 0.05);
+`;
+export const Img4 = styled.img`
+  position: absolute;
+  width: 82.58px;
+  height: 83.41px;
+  left: 20rem;
+  border-radius: 50%;
+  bottom: -60rem;
+  background: rgba(0, 92, 230, 0.05);
+
+  @media screen and (max-width: 768px) {
+    z-index: -1;
+  }
+`;
+export const Img5 = styled.img`
+  position: absolute;
+  width: 165.16px;
+  height: 166.82px;
+  border-radius: 50%;
+  bottom: -90rem;
+  left: 60rem;
+  background: rgba(226, 195, 208, 0.15);
+`;
+export const Img6 = styled.img`
+  position: absolute;
+  width: 165.16px;
+  height: 166.82px;
+  border-radius: 50%;
+  bottom: -110rem;
+  left: -10rem;
+  background: rgba(226, 195, 208, 0.15);
+`;
+export const Img7 = styled.img`
+  position: absolute;
+  width: 247.74px;
+  height: 250.23px;
+  border-radius: 50%;
+  bottom: -70rem;
+  left: -15rem;
+  background: rgba(0, 92, 230, 0.05);
+`;
+export const Img8 = styled.img`
+  position: absolute;
+  width: 82.58px;
+  height: 83.41px;
+  left: 70rem;
+  border-radius: 50%;
+  bottom: -120rem;
+  background: rgba(0, 92, 230, 0.05);
+`;
+export const Img9 = styled.img``;

@@ -3,6 +3,7 @@ import Accordion from "../Faq/Accordion/Accordion";
 import Faq from "../Faq/Accordion/Faq";
 import FaqFeature from "../Faq/FaqFeature";
 import FaqHero from "../Faq/FaqHero";
+import FaqInfo from "../Faq/FaqInfo";
 
 const Combinefaq = () => {
   return (
@@ -11,6 +12,7 @@ const Combinefaq = () => {
       <FaqFeature />
       <Faq />
       <Accordion />
+      <FaqInfo />
     </div>
   );
 };
