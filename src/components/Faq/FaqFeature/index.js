@@ -7,7 +7,6 @@ import Five from "../../../assets/images/box5.svg";
 import Six from "../../../assets/images/box6.svg";
 import Seven from "../../../assets/images/box7.svg";
 import Eight from "../../../assets/images/box8.svg";
-import Nine from "../../../assets/images/box9.svg";
 import {
   FeatureSection,
   FeatureContainer,
