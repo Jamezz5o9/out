@@ -40,17 +40,17 @@ export const NavLogo = styled(LinkR)`
   align-items: center;
 
   @media screen and (max-with: 768px) {
-    width: 50%;
+    width: 80px;
   }
 `;
 
 export const Img = styled.img`
-  width: 90%;
+  width: 9rem;
   margin: 0;
   padding: 0;
 
   @media screen and (max-with: 768px) {
-    width: 50%;
+    width: 80px;
   }
 `;
 

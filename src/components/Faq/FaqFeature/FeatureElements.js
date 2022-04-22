@@ -8,7 +8,7 @@ export const FeatureSection = styled.div`
   z-index: 1;
 
   @media screen and (max-width: 768px) {
-    max-width: 700px;
+    max-width: 400px;
     margin: 0 auto;
     margin-top: -3rem;
   }
@@ -33,7 +33,7 @@ export const FeatureWrapper = styled.div`
     justify-content: center;
     align-items: center;
     height: 300px;
-    width: 400px;
+    width: 315px;
     margin: 0 auto;
     background: #dce2ff;
     border: 1px solid #005ce6;
@@ -84,6 +84,7 @@ export const FeatureMenu = styled.div`
 
   @media screen and (max-width: 768px) {
     margin: 0 auto;
+    max-width: 300px;
   }
 `;
 
@@ -141,7 +142,7 @@ export const Img2 = styled.img`
     position: absolute;
     width: 165.16px;
     height: 166.82px;
-    left: 15rem;
+    left: 6rem;
     border-radius: 50%;
     bottom: -18rem;
     background: rgba(0, 92, 230, 0.05);
@@ -156,6 +157,10 @@ export const Img3 = styled.img`
   border-radius: 50%;
   bottom: -40rem;
   background: rgba(0, 92, 230, 0.05);
+  @media screen and (max-width: 768px) {
+    z-index: -1;
+    display: none;
+  }
 `;
 export const Img4 = styled.img`
   position: absolute;
@@ -168,6 +173,7 @@ export const Img4 = styled.img`
 
   @media screen and (max-width: 768px) {
     z-index: -1;
+    display: none;
   }
 `;
 export const Img5 = styled.img`
@@ -178,6 +184,10 @@ export const Img5 = styled.img`
   bottom: -90rem;
   left: 60rem;
   background: rgba(226, 195, 208, 0.15);
+  @media screen and (max-width: 768px) {
+    z-index: -1;
+    display: none;
+  }
 `;
 export const Img6 = styled.img`
   position: absolute;
@@ -187,6 +197,10 @@ export const Img6 = styled.img`
   bottom: -110rem;
   left: -10rem;
   background: rgba(226, 195, 208, 0.15);
+  @media screen and (max-width: 768px) {
+    z-index: -1;
+    display: none;
+  }
 `;
 export const Img7 = styled.img`
   position: absolute;
@@ -196,6 +210,10 @@ export const Img7 = styled.img`
   bottom: -70rem;
   left: -15rem;
   background: rgba(0, 92, 230, 0.05);
+  @media screen and (max-width: 768px) {
+    z-index: -1;
+    display: none;
+  }
 `;
 export const Img8 = styled.img`
   position: absolute;
@@ -205,5 +223,9 @@ export const Img8 = styled.img`
   border-radius: 50%;
   bottom: -120rem;
   background: rgba(0, 92, 230, 0.05);
+  @media screen and (max-width: 768px) {
+    z-index: -1;
+    display: none;
+  }
 `;
 export const Img9 = styled.img``;
