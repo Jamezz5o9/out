@@ -1,3 +1,6 @@
+![Netlify](https://img.shields.io/netlify/c7d49f7e-5c47-43f7-848f-0c14f1d809dc)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
