@@ -22,7 +22,6 @@ import {
   Img6,
   Img7,
   Img8,
-  Img9,
   FP,
   FS,
 } from "./FeatureElements";
@@ -37,15 +36,14 @@ const FaqFeature = () => {
               <FP>Avaiable between 8AM to 6PM WAT</FP>
               <FS>
                 <span></span> Unavailable
-                <Img1 src={One}  alt="Image one" />
+                <Img1 src={One} alt="Image one" />
                 <Img2 src={Two} alt="Image two" />
                 <Img3 src={Three} alt="Imgage three" />
                 <Img4 src={Four} alt="Image four" />
                 <Img5 src={Five} alt="Image five" />
-                <Img6 src={Six}  alt="Image six" />
+                <Img6 src={Six} alt="Image six" />
                 <Img7 src={Seven} alt="Image seven" />
                 <Img8 src={Eight} alt="Image eight" />
-                <Img9 src={Nine} alt="Image nine" />
               </FS>
             </FeatureMenu>
           </FeatureWrap>
