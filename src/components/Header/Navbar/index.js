@@ -12,7 +12,6 @@ import {
   NavBtn,
   NavBtnLink,
   Img,
-  Link,
 } from "./NavbarElements";
 
 const NavBar = ({ toggle }) => {

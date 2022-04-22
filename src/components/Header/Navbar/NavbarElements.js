@@ -1,12 +1,10 @@
 import styled from "styled-components";
 import { Link as LinkR } from "react-router-dom";
-import { Link as LinkS } from "react-scroll";
 
 export const Nav = styled.nav`
   background: #ffffff;
   box-shadow: 0px 4px 4px rgba(146, 149, 152, 0.16);
   height: 80px;
-  /* margin-top: -80px; */
   display: flex;
   justify-content: center;
   align-items: center;
