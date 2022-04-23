@@ -23,7 +23,6 @@ const Ideal = styled.div`
 
   p {
     color: #0f2f66;
-    margin-top: .5rem;
   }
 
   @media screen and (max-width: 768px) {
@@ -37,7 +36,7 @@ const Ideal = styled.div`
 
     p {
       color: #0f2f66;
-      margin-top: .5rem;
+      margin-top: 0.3rem;
     }
   }
 `;

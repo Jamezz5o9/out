@@ -10,7 +10,7 @@ export const FeatureSection = styled.div`
   @media screen and (max-width: 768px) {
     max-width: 400px;
     margin: 0 auto;
-    margin-top: -2rem;
+    margin-top: -1.75rem;
   }
 `;
 
@@ -84,7 +84,7 @@ export const FeatureMenu = styled.div`
 
   @media screen and (max-width: 768px) {
     margin: 0 auto;
-    max-width: 300px;
+    max-width: 314px;
   }
 `;
 
