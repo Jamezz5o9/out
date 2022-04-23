@@ -10,7 +10,7 @@ export const InfoSection = styled.div`
     max-width: 600px;
     width: 100%;
     height: 14rem;
-    background: #fafafa;
+    background: #ecf4ff;
   }
 `;
 export const InfoContainer = styled.div`

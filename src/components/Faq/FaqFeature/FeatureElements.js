@@ -219,7 +219,7 @@ export const Img8 = styled.img`
   position: absolute;
   width: 82.58px;
   height: 83.41px;
-  left: 70rem;
+  left: 60rem;
   border-radius: 50%;
   bottom: -120rem;
   background: rgba(0, 92, 230, 0.05);
