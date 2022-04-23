@@ -32,8 +32,8 @@ export const FeatureWrapper = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 300px;
-    width: 315px;
+    height: 250px;
+    width: 300px;
     margin: 0 auto;
     background: #dce2ff;
     border: 1px solid #005ce6;
@@ -83,8 +83,10 @@ export const FeatureMenu = styled.div`
   padding-top: 15px;
 
   @media screen and (max-width: 768px) {
-    margin: 0 auto;
-    max-width: 314px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -2.2rem;
+    max-width: 300px;
   }
 `;
 
@@ -225,23 +227,6 @@ export const Img8 = styled.img`
   background: rgba(0, 92, 230, 0.05);
   @media screen and (max-width: 768px) {
     z-index: -1;
-    display: none;
-  }
-`;
-
-export const General = styled.div`
-  position: absolute;
-  color: #000000;
-  font-size: 1.1rem;
-  font-weight: bold;
-  bottom: -26rem;
-  left: -5rem;
-  border-left: 3px solid #0f2f66;
-  height: 50px;
-  padding-left: 1rem;
-  padding-top: 1rem;
-
-  @media screen and (max-width: 768px) {
     display: none;
   }
 `;
