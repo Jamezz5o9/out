@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const InfoSection = styled.div`
   max-width: 1400px;
-  background: #fafafa;
+  background: #ecf4ff;
   height: 14rem;
   width: 100%;
 

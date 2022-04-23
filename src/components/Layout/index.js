@@ -1,5 +1,4 @@
 import Footer from "../UI/organisms/Footer";
-import HomeNewsletterSection from "../UI/organisms/HomeNewsLetterSection";
 import Combine from "../Header/Combine";
 
 const Layout = ({ children }) => {
@@ -7,7 +6,6 @@ const Layout = ({ children }) => {
     <div>
       <Combine />
       {children}
-      <HomeNewsletterSection />
       <Footer />
     </div>
   );
