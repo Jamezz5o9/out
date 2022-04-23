@@ -13,6 +13,7 @@ import {
   FeatureWrapper,
   FeatureWrap,
   FeatureMenu,
+  General,
   Img1,
   Img2,
   Img3,
@@ -35,6 +36,7 @@ const FaqFeature = () => {
               <FP>Avaiable between 8AM to 6PM WAT</FP>
               <FS>
                 <span></span> Unavailable
+                <General>General</General>
                 <Img1 src={One} alt="Image one" />
                 <Img2 src={Two} alt="Image two" />
                 <Img3 src={Three} alt="Imgage three" />

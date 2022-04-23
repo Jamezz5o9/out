@@ -228,3 +228,20 @@ export const Img8 = styled.img`
     display: none;
   }
 `;
+
+export const General = styled.div`
+  position: absolute;
+  color: #000000;
+  font-size: 1.1rem;
+  font-weight: bold;
+  bottom: -26rem;
+  left: -5rem;
+  border-left: 3px solid #0f2f66;
+  height: 50px;
+  padding-left: 1rem;
+  padding-top: 1rem;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+`;

@@ -11,25 +11,8 @@ const AccordionSection = styled.div`
   justify-content: center;
   flex-direction: column;
   height: 90%;
-  position: relative;
 `;
 
-const General = styled.div`
-  position: absolute;
-  color: #000000;
-  font-size: 1.1rem;
-  font-weight: bold;
-  top: 0%;
-  left: 7%;
-  border-left: 3px solid #0f2f66;
-  height: 50px;
-  padding-left: 1rem;
-  padding-top: 1rem;
-
-  @media screen and (max-width: 768px) {
-    display: none;
-  }
-`;
 const Container = styled.div`
   padding-right: 1rem;
   padding-left: 1rem;
@@ -97,7 +80,6 @@ const Accordion = () => {
   return (
     <IconContext.Provider value={{ color: "#0F2F66", size: "25px" }}>
       <AccordionSection>
-        <General>General</General>
         <Container>
           {Data.map((item, id) => {
             return (
