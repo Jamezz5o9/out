@@ -32,7 +32,7 @@ const FaqFeature = () => {
         <FeatureWrapper>
           <FeatureWrap>
             <FeatureMenu>
-              <FP>Avaiable between 8AM to 6PM WAT</FP>
+              <FP>Available between 8AM to 6PM WAT</FP>
               <FS>
                 <span></span> Unavailable
                 <Img1 src={One} alt="Image one" />

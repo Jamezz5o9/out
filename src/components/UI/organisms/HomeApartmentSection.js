@@ -11,7 +11,7 @@ const homeApartment =[
         id: 1,
         src: Search,
         title:"Find an Apartment",
-        content: 'Sign up on our mobile and select an apartment that suits you.'
+        content: 'Sign up on our mobile App and select an apartment that suits you.'
     },
     {
         id: 2,
@@ -55,7 +55,7 @@ const HomeApartmentSection = () => {
                 <div className="apply__new">
                   <h1>Find an Apartment</h1>
                   <p className="apply__new-2">
-                    Sign up on our mobile and select an apartment that suits
+                    Sign up on our mobile App and select an apartment that suits
                     you.
                   </p>
                 </div>
