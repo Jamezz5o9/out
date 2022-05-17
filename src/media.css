@@ -6,7 +6,7 @@
     font-family: Satoshi;
     src: url('./assets/font/Satoshi-Variable.ttf');
     font-weight: 900 800 700 600 500 400 300 200;
-}  
+}
 
 body{
     min-height: 100vh;
@@ -17,13 +17,13 @@ body{
     margin: 0 auto;
 }
 .header{
-    padding: 0.3rem;     
+    padding: 0.3rem;
 }
 .header_p{
-    display: flex;    
+    display: flex;
 }
 .header_img{
-   height: 40px;  
+   height: 40px;
 }
 .header_p_1{
     font-style: normal;
@@ -34,7 +34,7 @@ body{
     padding-right: 14px;
 }
 .header_p_2{
-    font-family: DM Sans;
+    font-family: DM Sans, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 11px;
@@ -67,12 +67,12 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    position: absolute;    
+    position: absolute;
     background-image: url('../src/assets/images/latest.png');
     background-repeat:no-repeat;
     background-size: cover;
     opacity: 0.2;
-    z-index: -1;   
+    z-index: -1;
 }
 .Hero{
     width: 100%;
@@ -83,7 +83,7 @@ body{
     flex-direction: column;
     align-items: center;
     width: 70%;
-    margin: 0 auto;    
+    margin: 0 auto;
 }
 .hero_img > img{
     height: 0;
@@ -91,9 +91,9 @@ body{
 }
 .hero_h1_p{
     display: flex;
-    align-items: center;   
-    text-align: center;   
-    flex-direction: column;    
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
     margin-top: -40px;
 }
 .hero_h1_p > h1{
@@ -116,7 +116,7 @@ body{
 }
 .hero_h1_p p:nth-child(3){
     font-style: normal;
-    font-weight: normal;     
+    font-weight: normal;
     font-size: 14px;
     line-height: 1.5;
     text-align: center;
@@ -133,7 +133,7 @@ body{
     font-size: 12px;
     line-height: 1.5;
 }
-.hero__container1 img{       
+.hero__container1 img{
     height: 2.2rem;
 }
 .hero__container1{
@@ -154,15 +154,15 @@ body{
     height: 0;
     width: 0;
     padding-bottom:0;
-    
+
 }
 .SHome{
     width: 100%;
     background-image: url('../src/assets/images/empy-room.png');
-    background-size:contain;    
+    background-size:contain;
     background-repeat:no-repeat;
     background-position:center;
-    
+
 }
 .Shero_header{
     display: flex;
@@ -183,7 +183,7 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    flex-direction: column;    
+    flex-direction: column;
 }
 .SFeature{
     padding:24px 0px;
@@ -207,13 +207,13 @@ body{
 .SFeature__container-minor{
     display:flex;
     flex-direction: column;
-    align-items: center;    
+    align-items: center;
 }
 .SFeature__container-main{
     display:flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
     margin-top: -10px;
 }
 .SFeature__container-mini1{
@@ -244,9 +244,9 @@ body{
 }
 .set_features{
     display: flex;
-    flex-direction: column;    
-    align-items: center; 
-    margin-bottom: 10px;  
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
 
 }
 .feature_header{
@@ -266,26 +266,26 @@ body{
     display:flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;    
-    padding: 1rem 0px;  
+    align-items: center;
+    padding: 1rem 0px;
 }
 .features_card_h1{
     font-style: normal;
-    font-weight: bold;    
-    color: #0F2F66;    
+    font-weight: bold;
+    color: #0F2F66;
     padding-right: 30px;
     margin-bottom: 0;
     font-size: 18px;
-    line-height: 1.5;    
+    line-height: 1.5;
 }
 .feature__1 > img{
     padding-top: 20px;
     height: 70px;
     margin-bottom:-20px;
 }
-.features_card_p{     
+.features_card_p{
     font-style: normal;
-    font-weight: normal;    
+    font-weight: normal;
     color: #0F2F66;
     padding-right: 30px;
     font-size: 16px;
@@ -295,12 +295,12 @@ body{
     display:flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;    
-    padding:1rem;    
+    align-items: center;
+    padding:1rem;
 }
 .SFeature__container-2 > h1{
     font-size: 18px;
-    line-height: 1.5;    
+    line-height: 1.5;
 }
 
 /* End Of Feature Section */
@@ -314,16 +314,16 @@ body{
 }
 .apartment_container{
     width: 80%;
-    display: flex;    
+    display: flex;
     align-items: center;
     flex-direction: column;
     margin: 0 auto;
-       
+
 }
 .SApartment__container-1{
     width: 80%;
     margin: 0 auto;
-    
+
 }
 .SApartment__container-3{
     display: flex;
@@ -349,14 +349,14 @@ body{
     height: 11rem;
     margin-bottom:-20px;
 }
-.span span  a{    
+.span span  a{
     border-bottom: 1px solid black;
 }
 .apply__new{
-    margin-top: -110px;   
+    margin-top: -110px;
 }
 .apply__new  h1{
-    margin-bottom: 7px;    
+    margin-bottom: 7px;
 }
 .set_apartment{
     margin-bottom: -60px;
@@ -364,7 +364,7 @@ body{
 .set__apartment_group > div > h1{
     font-size: 18px;
     line-height: 1.5;
-    
+
 }
 .set__apartment_group > div > p{
     font-size: 16px;
@@ -384,11 +384,11 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;  
-    margin-top: -80px;  
+    justify-content: center;
+    margin-top: -80px;
 }
 .SApartment__container-5 > img{
-    height: 0px;    
+    height: 0px;
 }
 .SApartment__container-5{
     height: 90px;
@@ -404,8 +404,8 @@ body{
     line-height: 1.5 !important;
     text-align: center;
     color: #0F2F66;
-   
-}   
+
+}
 .set__apartment_junior > img{
     height: 0;
 }
@@ -423,8 +423,8 @@ body{
 .landlord_h1_p{
     display: flex;
     flex-direction: column;
-    align-items:flex-start; 
-    margin-left:-10px;   
+    align-items:flex-start;
+    margin-left:-10px;
 }
 .landlord_p_2{
     text-align:left;
@@ -433,7 +433,7 @@ body{
     width: 180.53px;
     height: 250px;
     padding-top: 20px;
-    
+
 }
 .landlord_h1_p > h1{
     font-style: normal;
@@ -446,19 +446,19 @@ body{
 .landlord_h1_p > button{
     background: #005CE6;
     border-radius: 10px;
-    padding: 5px 20px;    
-    font-style: normal;    
+    padding: 5px 20px;
+    font-style: normal;
     font-size: 12px;
     line-height: 1.5;
     color: #FFFFFF;
     border: none;
-    
+
 }
 .landlord_h1_p > p{
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 1.5;    
+    line-height: 1.5;
     color: #3B7980;
     margin-bottom:-15px;
     width: 100%;
@@ -480,8 +480,8 @@ body{
     padding:10px 50px;
     margin: 2rem;
     font-size: 1rem;
-    border-style: none;    
-    margin-bottom: 70px;    
+    border-style: none;
+    margin-bottom: 70px;
     border-bottom-left-radius: 0px;
 }
 .letter_p_2 > p{
@@ -536,9 +536,9 @@ body{
     font-weight: bold;
     font-size: 11px;
     line-height: 1.5;
-    color: #0F2F66;    
+    color: #0F2F66;
 }
-.footer_img a img{   
+.footer_img a img{
     padding-bottom:20px;
     height: 40px;
     margin-left: 20px;

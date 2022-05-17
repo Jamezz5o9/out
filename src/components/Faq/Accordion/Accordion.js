@@ -14,10 +14,7 @@ const AccordionSection = styled.div`
 `;
 
 const Container = styled.div`
-  padding-right: 1rem;
-  padding-left: 1rem;
-  padding-top: 0;
-  padding-bottom: 3rem;
+  padding: 0 1rem 3rem;
   top: 10%;
   max-width: 1200px;
 `;

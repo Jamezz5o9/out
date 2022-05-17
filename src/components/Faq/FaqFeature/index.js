@@ -37,7 +37,7 @@ const FaqFeature = () => {
                 <span></span> Unavailable
                 <Img1 src={One} alt="Image one" />
                 <Img2 src={Two} alt="Image two" />
-                <Img3 src={Three} alt="Imgage three" />
+                <Img3 src={Three} alt="Image three" />
                 <Img4 src={Four} alt="Image four" />
                 <Img5 src={Five} alt="Image five" />
                 <Img6 src={Six} alt="Image six" />

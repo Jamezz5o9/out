@@ -14,7 +14,7 @@ const FaqHero = () => {
       <FaqContainer>
         <FaqWrapper>
           <h1>Frequently Asked Questions</h1>
-          <p>FIND answers to your accomodation problems</p>
+          <p>FIND answers to your accommodation problems</p>
         </FaqWrapper>
         <FaqImg>
           <Img src={Faq} alt="Hero Img" />
