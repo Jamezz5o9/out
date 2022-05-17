@@ -20,16 +20,16 @@ const Footer = () => {
                 <img src={TwitterIcon} alt="Instagram icon" />
             </a>
             <a href="https://www.linkedin.com/company/rentgage" target="_blank" rel="noopener noreferrer">
-                <img src={LinkedInIcon} alt="Linkedln icon" />         
+                <img src={LinkedInIcon} alt="LinkedIn icon" />
             </a>
             </div>
             <p>
                 We would love to build a community with you in it.
                 <br />
                 Follow our social media pages to be a part of our growing community.
-            </p>           
+            </p>
             <p>
-                Copyright ©Rentgage 2021. All rights reserved.
+                Copyright © Rentgage 2022. All rights reserved.
             </p>
         </div>
     </section>

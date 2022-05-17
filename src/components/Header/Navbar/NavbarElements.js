@@ -3,7 +3,7 @@ import { Link as LinkR } from "react-router-dom";
 
 export const Nav = styled.nav`
   background: #ffffff;
-  box-shadow: 0px 4px 4px rgba(146, 149, 152, 0.16);
+  box-shadow: 0 4px 4px rgba(146, 149, 152, 0.16);
   height: 80px;
   display: flex;
   justify-content: center;
@@ -37,7 +37,7 @@ export const NavLogo = styled(LinkR)`
   text-decoration: none;
   align-items: center;
 
-  @media screen and (max-with: 768px) {
+  @media screen and (max-width: 768px) {
     width: 80px;
   }
 `;
@@ -47,7 +47,7 @@ export const Img = styled.img`
   margin: 0;
   padding: 0;
 
-  @media screen and (max-with: 768px) {
+  @media screen and (max-width: 768px) {
     width: 80px;
   }
 `;

@@ -2,15 +2,13 @@ import styled from "styled-components";
 
 export const FeatureSection = styled.div`
   max-width: 1140px;
-  margin: 0 auto;
   width: 100%;
-  margin-top: -4rem;
+  margin: -4rem auto 0;
   z-index: 1;
 
   @media screen and (max-width: 768px) {
     max-width: 400px;
-    margin: 0 auto;
-    margin-top: -1.75rem;
+    margin: -1.75rem auto 0;
   }
 `;
 
@@ -22,7 +20,7 @@ export const FeatureWrapper = styled.div`
   background: #dce2ff;
   border: 1px solid #005ce6;
   box-sizing: border-box;
-  box-shadow: 0px 4px 4px rgba(15, 47, 102, 0.08);
+  box-shadow: 0 4px 4px rgba(15, 47, 102, 0.08);
   border-radius: 5px;
   max-width: 1140px;
   height: 184px;
@@ -38,7 +36,7 @@ export const FeatureWrapper = styled.div`
     background: #dce2ff;
     border: 1px solid #005ce6;
     box-sizing: border-box;
-    box-shadow: 0px 4px 4px rgba(15, 47, 102, 0.08);
+    box-shadow: 0 4px 4px rgba(15, 47, 102, 0.08);
     border-radius: 5px;
   }
 `;
