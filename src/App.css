@@ -29,8 +29,7 @@ a{
 .header_1{
     position:sticky;
     top: 0;
-    z-index: 999;   
-
+    z-index: 1; 
 }
 .header{
     display: flex;
@@ -49,10 +48,7 @@ a{
     align-items: center;
     height: 100%;
 }
-.header_1{
-    background: #FFFFFF;
-    box-shadow: 0 4px 4px rgba(146, 149, 152, 0.16);
-}
+
 .header_p_1{
     font-weight: bold;
     font-size: 1rem;
