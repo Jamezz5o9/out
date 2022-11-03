@@ -8,15 +8,18 @@ Link{
 /* Hero Section */
 .SHome{
     background-image: url('../src/assets/images/empy-room.png');
-    max-width: 1400px;
+    width: 100%; 
       
 }
+
 .Shero_header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 60px;
-    padding-bottom: 150px;
+    padding-bottom: 150px; 
+    width: 70%;
+    margin: 0 auto;   
 }
 .Shero_h1_p > h1{
     font-style: normal;
