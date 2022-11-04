@@ -26,7 +26,7 @@ export const NavbarContainer = styled.div`
   width: 100%;
   padding: 0 24px;
   margin: 0 auto;
-  max-width: 85%;
+  max-width: 80%;
 `;
 
 export const NavLogo = styled(LinkR)`
