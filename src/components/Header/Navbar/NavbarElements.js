@@ -50,6 +50,8 @@ export const Img = styled.img`
 
   @media screen and (max-width: 768px) {
     width: 8rem;
+    margin: 0;
+    padding: 0;
   }
 `;
 
