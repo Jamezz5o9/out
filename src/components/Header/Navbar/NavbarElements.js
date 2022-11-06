@@ -49,7 +49,7 @@ export const Img = styled.img`
   padding: 0;
 
   @media screen and (max-width: 768px) {
-    width: 80px;
+    width: 8rem;
   }
 `;
 
