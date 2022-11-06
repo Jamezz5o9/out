@@ -45,12 +45,12 @@ export const NavLogo = styled(LinkR)`
 
 export const Img = styled.img`
   width: 13rem;
-  margin: 0;
+  margin:0;
   padding: 0;
 
   @media screen and (max-width: 768px) {
     width: 8rem;
-    margin: 0;
+    margin: -1.75rem;
     padding: 0;
   }
 `;
